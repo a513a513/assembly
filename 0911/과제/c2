@@ -1,5 +1,5 @@
 2. Unsigned Binary to Decimal Conversion
   부호 없는 2진수에서 10진수로 변환
-a. 00110101~2~=53~10~
-b. 10010110~2~=150~10~
-c. 11001100~2~=204~10~​
+a. 00110101<sub>2</sub>=53<sub>10</sub>
+b. 10010110<sub>2</sub>=150<sub>10</sub>
+c. 11001100<sub>2</sub>=204<sub>10</sub>

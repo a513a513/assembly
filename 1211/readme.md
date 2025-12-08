@@ -12,12 +12,13 @@
 ## 0. 실행 환경 준비 (Prerequisites)
 프로젝트 빌드에 필요한 GCC 컴파일러와 필수 라이브러리를 설치하는 과정입니다. WSL(Ubuntu) 환경에서 진행했습니다.
 
-* **Command**: `sudo apt install build-essential gcc-multilib`
+* **Command**: ```bash
+sudo apt update
+sudo apt install build-essential gcc-multilib
 * **Details**:
     * `build-essential`: gcc, make 등 개발에 필요한 기본 도구 모음
     * `gcc-multilib`: 32비트 및 64비트 아키텍처를 모두 지원하기 위한 라이브러리
 
-![Environment Setup](image_39bff5.png)
 
 ---
 

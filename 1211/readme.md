@@ -16,7 +16,7 @@
 ```bash
 sudo apt update
 sudo apt install build-essential gcc-multilib
-
+```
 * **Details**:
     * `build-essential`: gcc, make 등 개발에 필요한 기본 도구 모음
     * `gcc-multilib`: 32비트 및 64비트 아키텍처를 모두 지원하기 위한 라이브러리

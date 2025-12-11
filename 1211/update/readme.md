@@ -95,7 +95,6 @@ Windows CMD 환경으로 이동하여 **MinGW-w64**를 이용해 실제 윈도�
 
 * **Encoding Fix**: `chcp 65001`을 사용하여 터미널 한글 깨짐 문제 해결.
 * **DLL Build**: `gcc -shared` 옵션으로 `mylib.dll` 생성.
-
 ![Windows Success]![KakaoTalk_20251208_203955630_01](https://github.com/user-attachments/assets/857e81f8-9406-41a0-a45d-97fe0bcc34ec)
 
 > **Success:** Windows 환경에서 정상적으로 DLL이 로드되어 결과값 `30`을 출력하는 모습입니다.
@@ -104,7 +103,6 @@ Windows CMD 환경으로 이동하여 **MinGW-w64**를 이용해 실제 윈도�
 
 ## 6. 최종 결과물 (Build Artifacts)
 하나의 소스 코드로 다양한 플랫폼에 맞는 바이너리를 생성해냈습니다.
-
 ![Final Files]<img width="642" height="466" alt="KakaoTalk_20251208_203955630" src="https://github.com/user-attachments/assets/8d078f36-272a-454e-8c47-4b8f6c19ee90" />
 
 > **Structure:**

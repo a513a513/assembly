@@ -29,7 +29,7 @@ C언어 변수가 아닌 CPU 레지스터(`%eax`)를 직접 제어하여 덧셈 
 
 ### 1-1. 헤더 파일 선언 (mylib.h)
 함수의 원형을 선언하여 외부에서 호출 가능하도록 인터페이스를 정의했습니다.
-<img width="287" height="273" alt="596d7830-36cc-479f-b29a-cd0e0eeb9c7a" src="https://github.com/user-attachments/assets/61a3a52b-368a-4297-9eaa-95eb22b5b8e3" />
+!<img width="287" height="273" alt="596d7830-36cc-479f-b29a-cd0e0eeb9c7a" src="https://github.com/user-attachments/assets/61a3a52b-368a-4297-9eaa-95eb22b5b8e3" />
 
 
 ### 1-2. 인라인 어셈블리 (`mylib.c`)

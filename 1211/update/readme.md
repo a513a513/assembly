@@ -27,14 +27,20 @@ sudo apt install build-essential gcc-multilib
 ## 1. 핵심 코드 구현 (Core Implementation)
 C언어 변수가 아닌 CPU 레지스터(`%eax`)를 직접 제어하여 덧셈 연산을 수행하는 함수를 작성하고, 이를 헤더와 소스로 분리하여 모듈화했습니다.
 
-### 1-1. 인라인 어셈블리 (`mylib.c`)
+### 1-1. 헤더 파일 선언 (mylib.h)
+함수의 원형을 선언하여 외부에서 호출 가능하도록 인터페이스를 정의했습니다.
+<img width="287" height="273" alt="596d7830-36cc-479f-b29a-cd0e0eeb9c7a" src="https://github.com/user-attachments/assets/61a3a52b-368a-4297-9eaa-95eb22b5b8e3" />
+
+
+### 1-2. 인라인 어셈블리 (`mylib.c`)
 GCC 기반의 **AT&T 문법**을 사용하여 하드웨어 레벨의 연산 과정을 C 코드 내에 통합했습니다.
 ![Assembly Code]<img width="497" height="436" alt="KakaoTalk_20251208_203955630_07" src="https://github.com/user-attachments/assets/cf3d32c4-bf64-4f97-8e2b-cb7f5001cbbb" />
 
 
-### 1-2. 모듈화된 메인 함수 (`main.c`)
+### 1-3. 모듈화된 메인 함수 (`main.c`)
 라이브러리 헤더(`mylib.h`)를 포함하여, 어셈블리 로직을 외부 함수처럼 호출하는 구조입니다.
 ![Main Code]<img width="775" height="410" alt="KakaoTalk_20251208_203955630_08" src="https://github.com/user-attachments/assets/668f48c7-6131-43d3-b058-baf89f45ef57" />
+
 
 
 ---
